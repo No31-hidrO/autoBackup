@@ -29,7 +29,7 @@ if not os.path.exists(destination_directory):
 backup_directories = sorted(os.listdir(destination_directory), reverse=True)
 
 
-# Lặp vô hạn để thực hiện sao lưu dữ liệu vào 5h hàng ngày
+# Lặp vô hạn để thực hiện sao lưu dữ liệu vào 0h hàng ngày
 while True:
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
